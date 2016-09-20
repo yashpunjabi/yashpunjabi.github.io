@@ -1623,9 +1623,13 @@
 			text-shadow: -1px -1px 0px #181818;
 		}
 
-			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
+			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h5, .wrapper.style4 h6 {
 				color: #fff;
 			}
+
+            .wrapper.style4 h3, .wrapper.style4 h4 {
+                text-shadow: -1px -1px 0px #ffffff
+            }
 
 			.wrapper.style4 form input[type=text],
 			.wrapper.style4 form input[type=password],
@@ -1811,6 +1815,10 @@
 
 				.box.style2 h3 {
 					margin-bottom: 0.25em;
+				}
+                .box.style2 p {
+                    color: black;
+                    text-shadow: -1px -1px 0px #ffffff
 				}
 
 				.box.style2 .image {
